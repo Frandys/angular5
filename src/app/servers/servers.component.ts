@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ServersComponent implements OnInit {
 allowNewServer = false;
 serverCreationStatus = 'No sever created';
-ServerName = '';
+ServerName = 'Test server';
 
   constructor() {  
  setTimeout(() => { 
